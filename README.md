@@ -65,6 +65,5 @@ Users should be able to:
 
 
 ## Author
-
 - Frontend Mentor - [@Samjolas](https://www.frontendmentor.io/profile/Samjolas)
 
