@@ -19,15 +19,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /*  default body style */
 body {
-  font-family: a.$ff-main;
+  font-family: a.$ff-sub;
   font-style: normal;
   font-weight: a.$fw-400;
   text-rendering: optimizeSpeed;
   line-height: 1.3;
   letter-spacing: 0.03em;
   overflow-x: hidden;
-  color: a.$color-sub;
-  background: a.$color-bg;
+  color: a.$color-main;
+  background: a.$color-bg url(../images/bg-desktop.svg) no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,11 +51,6 @@ body {
   font-size: 62.5%;
 }
 
-@media screen and (max-width: 375px) {
-  body {
-    background: a.$color-bg url(../images/pattern-background-mobile.svg) no-repeat top;
-  }
-}
 
 
 

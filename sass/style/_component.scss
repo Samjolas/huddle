@@ -1,0 +1,14 @@
+@use 'variables' as a;
+
+.btn {
+  display: inline-block;
+  width: 20rem;
+  border-radius: 10rem;
+  background: a.$color-main;
+  font-weight: a.$fw-400;
+  font-size: a.$fs-btn;
+  color: a.$color-bg;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: .2rem .5rem 1rem #494949;
+}

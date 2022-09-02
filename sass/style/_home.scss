@@ -1,2 +1,43 @@
 @use 'variables' as a;
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  max-width: 128rem;
+  width: calc(100% - 16rem);
+  &__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  &__title {
+    font-size: a.$fs-main;
+    font-family: a.$ff-main;
+  }
+  &__des {
+    font-size: a.$fs-sub;
+    font-family: a.$ff-sub;
+    margin-top: 1rem;
+  }
+  &__icon {
+    display: flex;
+    justify-content: end;
+    gap: 1.5rem;
+  }
+  &__social {
+    font-size: a.$fs-icon;
+    width: 4rem; height: 4rem;
+    border-radius: 50%;
+    border: 1px solid a.$color-main;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+}
+
