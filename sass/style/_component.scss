@@ -10,5 +10,16 @@
   color: a.$color-bg;
   padding: 2rem;
   text-align: center;
-  box-shadow: .2rem .5rem 1rem #494949;
+  box-shadow: .2rem .5rem 1rem a.$color-shadow;
+  transition: all .5s;
+  &:hover {
+    translate: 0 -.5rem;
+    box-shadow: .2rem .75rem 1rem a.$color-shadow;
+    color: a.$color-main;
+    background: a.$color-active;
+  }
+  &:active {
+    translate: 0 .5rem;
+    box-shadow: .2rem .25rem 1rem a.$color-shadow;
+  }
 }
