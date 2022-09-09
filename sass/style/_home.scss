@@ -43,7 +43,25 @@
       cursor: pointer;
       border-color: a.$color-active;
     }
-    
   }
 }
 
+@media (max-width: 1200px) {
+  .hero {
+    text-align: center;
+    margin: 1rem;
+    &__box {
+      grid-template-columns: 1fr;
+    }
+    &__icon {
+      margin-top: 5rem;
+      justify-content: center;
+    }
+  } 
+}
+
+@media (max-width: 414px) {
+  .hero {
+    width: calc(100% - 6rem);
+  }
+}

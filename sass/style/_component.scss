@@ -23,3 +23,10 @@
     box-shadow: .2rem .25rem 1rem a.$color-shadow;
   }
 }
+
+@media (max-width: 1200px) {
+  .btn {
+    margin: auto;
+    
+  }
+}
