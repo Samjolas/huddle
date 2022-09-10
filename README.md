@@ -42,6 +42,9 @@ Users should be able to:
 - Evaluate the design
 - write README
 - input all variables
+- write my HTML code
+- wriet my css code
+- check for responsiveness and correct with @media query
 
 
 

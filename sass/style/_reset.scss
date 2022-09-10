@@ -33,6 +33,11 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+@media (max-width: 375px){
+  body {
+    background: a.$color-bg url(../images/bg-mobile.svg) no-repeat;
+  }
+}
 
 /* A elements that don't have a class get default styles */
 a {
@@ -50,6 +55,8 @@ html,
 body {
   font-size: 62.5%;
 }
+
+
 
 
 
