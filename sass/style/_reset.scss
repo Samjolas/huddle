@@ -28,6 +28,7 @@ body {
   overflow-x: hidden;
   color: a.$color-main;
   background: a.$color-bg url(../images/bg-desktop.svg) no-repeat;
+  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
